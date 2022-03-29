@@ -10,7 +10,7 @@ let package = Package(
 		// Products define the executables and libraries a package produces, and make them visible to other packages.
 		.library(
 			name: "BleManagerIOS",
-			targets: ["BleManagerIOS"])
+			targets: ["BleManagerIOS", "BleManagerButClass"])
 	],
 	dependencies: [
 		.package(
@@ -28,5 +28,6 @@ let package = Package(
 			dependencies: [
 				.byName(name: "RxSwift")
 			]),
+		.target(name: "BleManagerButClass")
 	]
 )
