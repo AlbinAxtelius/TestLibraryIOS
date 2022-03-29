@@ -8,7 +8,7 @@
 import Foundation
 
 public class BleManagerButClass {
-	public init()
+	public init() {}
 	
 	public var version: String = "1.0.1"
 }
